@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temprature Convertion</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Temprature Converter</h1>
+        <div class="textBox">
+            <input type="number" class="insideText">
+        </div>
+        <div class="subContaier2">
+            <input type="radio" name="temp" class="converter" id="Celcious">
+        <label for="Celcious">Celcious ➡️ FarrFahrenheite</label><br>
+            <input type="radio" name="temp" class="converter" id="FarrFahrenheite">
+        <label for="FarrFahrenheite">FarrFahrenheit ➡️ Celcious</label><br>
+        </div>
+        
+        <button class="buttonType" onclick="convert()"> Submit</button>
+        <div class="subContainer3">
+            <p class="result"></p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
