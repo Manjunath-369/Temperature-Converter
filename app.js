@@ -1,6 +1,6 @@
 const user = document.querySelector(".insideText");
 const toFar = document.getElementById("Celcious");
-const toCelci = document.getElementById("FarrFahrenheite");
+const toCelci = document.getElementById("Fahrenheite");
 const result = document.querySelector(".result");
 const but = document.querySelector(".buttonType");
 let temp;
